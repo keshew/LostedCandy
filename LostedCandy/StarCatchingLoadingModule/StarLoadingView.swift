@@ -8,7 +8,7 @@ struct StarLoadingView: View {
         GeometryReader { geometry in
             if verticalSizeClass == .compact {
                 ZStack {
-                    Image(CandyImageName.menuHBackground.rawValue)
+                    Image(CandyImageName.starCathcingBack.rawValue)
                         .resizable()
                         .ignoresSafeArea()
                     

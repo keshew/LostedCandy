@@ -12,6 +12,10 @@ struct BoomBlustView: View {
                 SpriteView(scene: boomBlustModel.createGameScene(gameData: gameData))
                     .ignoresSafeArea()
                     .navigationBarBackButtonHidden(true)
+                
+                    .navigationDestination(isPresented: $gameData.isWin) {
+                        GameLoadingView()
+                    }
             }
         }
     }

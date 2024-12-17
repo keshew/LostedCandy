@@ -49,6 +49,12 @@
 		869E3B752D11872C0086E4C2 /* StarLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E3B722D11872C0086E4C2 /* StarLoadingView.swift */; };
 		869E3B762D11872C0086E4C2 /* StarLoadingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E3B732D11872C0086E4C2 /* StarLoadingModel.swift */; };
 		869E3B772D11872C0086E4C2 /* StarLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E3B742D11872C0086E4C2 /* StarLoadingViewModel.swift */; };
+		86A33C382D11C673005A5501 /* BouncingLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A33C352D11C673005A5501 /* BouncingLoadingView.swift */; };
+		86A33C392D11C673005A5501 /* BouncingLoadingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A33C362D11C673005A5501 /* BouncingLoadingModel.swift */; };
+		86A33C3A2D11C673005A5501 /* BouncingLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A33C372D11C673005A5501 /* BouncingLoadingViewModel.swift */; };
+		86A33C3F2D11CA8E005A5501 /* BoomLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A33C3C2D11CA8E005A5501 /* BoomLoadingView.swift */; };
+		86A33C402D11CA8E005A5501 /* BoomLoadingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A33C3D2D11CA8E005A5501 /* BoomLoadingModel.swift */; };
+		86A33C412D11CA8E005A5501 /* BoomLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A33C3E2D11CA8E005A5501 /* BoomLoadingViewModel.swift */; };
 		86C2D6742D0B038F0052F15F /* CandyImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D6732D0B038F0052F15F /* CandyImageName.swift */; };
 		86C2D67B2D0B03F60052F15F /* CandyMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D6782D0B03F60052F15F /* CandyMenuView.swift */; };
 		86C2D67C2D0B03F60052F15F /* CandyMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D6792D0B03F60052F15F /* CandyMenuModel.swift */; };
@@ -115,6 +121,12 @@
 		869E3B722D11872C0086E4C2 /* StarLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarLoadingView.swift; sourceTree = "<group>"; };
 		869E3B732D11872C0086E4C2 /* StarLoadingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarLoadingModel.swift; sourceTree = "<group>"; };
 		869E3B742D11872C0086E4C2 /* StarLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarLoadingViewModel.swift; sourceTree = "<group>"; };
+		86A33C352D11C673005A5501 /* BouncingLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingLoadingView.swift; sourceTree = "<group>"; };
+		86A33C362D11C673005A5501 /* BouncingLoadingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingLoadingModel.swift; sourceTree = "<group>"; };
+		86A33C372D11C673005A5501 /* BouncingLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingLoadingViewModel.swift; sourceTree = "<group>"; };
+		86A33C3C2D11CA8E005A5501 /* BoomLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomLoadingView.swift; sourceTree = "<group>"; };
+		86A33C3D2D11CA8E005A5501 /* BoomLoadingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomLoadingModel.swift; sourceTree = "<group>"; };
+		86A33C3E2D11CA8E005A5501 /* BoomLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomLoadingViewModel.swift; sourceTree = "<group>"; };
 		86C2D6732D0B038F0052F15F /* CandyImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyImageName.swift; sourceTree = "<group>"; };
 		86C2D6782D0B03F60052F15F /* CandyMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyMenuView.swift; sourceTree = "<group>"; };
 		86C2D6792D0B03F60052F15F /* CandyMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyMenuModel.swift; sourceTree = "<group>"; };
@@ -253,6 +265,8 @@
 				86C2D6802D0B095F0052F15F /* Info.plist */,
 				868B19E32D0AE0CB002C7121 /* LostedCandyApp.swift */,
 				868B19E72D0AE0CC002C7121 /* Assets.xcassets */,
+				86A33C3B2D11CA7D005A5501 /* BoomBlustLoadingModule */,
+				86A33C342D11C65B005A5501 /* BouncingAppleLoadingModule */,
 				869E3B712D11871B0086E4C2 /* StarCatchingLoadingModule */,
 				869E3B6A2D1183010086E4C2 /* StrawCannonLoadingModule */,
 				869E3B632D117D0E0086E4C2 /* GameLoadingModule */,
@@ -340,6 +354,26 @@
 				869E3B742D11872C0086E4C2 /* StarLoadingViewModel.swift */,
 			);
 			path = StarCatchingLoadingModule;
+			sourceTree = "<group>";
+		};
+		86A33C342D11C65B005A5501 /* BouncingAppleLoadingModule */ = {
+			isa = PBXGroup;
+			children = (
+				86A33C352D11C673005A5501 /* BouncingLoadingView.swift */,
+				86A33C362D11C673005A5501 /* BouncingLoadingModel.swift */,
+				86A33C372D11C673005A5501 /* BouncingLoadingViewModel.swift */,
+			);
+			path = BouncingAppleLoadingModule;
+			sourceTree = "<group>";
+		};
+		86A33C3B2D11CA7D005A5501 /* BoomBlustLoadingModule */ = {
+			isa = PBXGroup;
+			children = (
+				86A33C3C2D11CA8E005A5501 /* BoomLoadingView.swift */,
+				86A33C3D2D11CA8E005A5501 /* BoomLoadingModel.swift */,
+				86A33C3E2D11CA8E005A5501 /* BoomLoadingViewModel.swift */,
+			);
+			path = BoomBlustLoadingModule;
 			sourceTree = "<group>";
 		};
 		86C2D6752D0B03C80052F15F /* CandyImageName */ = {
@@ -545,6 +579,9 @@
 				860962C82D11010C0026F430 /* MainGameViewModel.swift in Sources */,
 				86FB4FDE2D0CE4FE00B19125 /* CandySettingsViewModel.swift in Sources */,
 				86C2D68B2D0B106C0052F15F /* CustomButtons.swift in Sources */,
+				86A33C3F2D11CA8E005A5501 /* BoomLoadingView.swift in Sources */,
+				86A33C402D11CA8E005A5501 /* BoomLoadingModel.swift in Sources */,
+				86A33C412D11CA8E005A5501 /* BoomLoadingViewModel.swift in Sources */,
 				8609629F2D10C6E00026F430 /* BoomBlust.swift in Sources */,
 				86C2D67B2D0B03F60052F15F /* CandyMenuView.swift in Sources */,
 				86C2D67C2D0B03F60052F15F /* CandyMenuModel.swift in Sources */,
@@ -573,6 +610,9 @@
 				860962B52D10DA690026F430 /* BouncingApple.swift in Sources */,
 				8692F55F2D0F9CE700B5C0A8 /* StrawCannonViewModel.swift in Sources */,
 				860962A42D10C7F20026F430 /* BoomBlustExtension.swift in Sources */,
+				86A33C382D11C673005A5501 /* BouncingLoadingView.swift in Sources */,
+				86A33C392D11C673005A5501 /* BouncingLoadingModel.swift in Sources */,
+				86A33C3A2D11C673005A5501 /* BouncingLoadingViewModel.swift in Sources */,
 				86C2D6882D0B09D00052F15F /* OutlineExtension.swift in Sources */,
 				86C2D6902D0B23C50052F15F /* CandyLoadingView.swift in Sources */,
 				86C2D6912D0B23C50052F15F /* CandyLoadingModel.swift in Sources */,

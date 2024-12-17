@@ -11,6 +11,10 @@ struct BouncingAppleView: View {
                 SpriteView(scene: bouncingAppleModel.createGameScene(gameData: gameData))
                     .ignoresSafeArea()
                     .navigationBarBackButtonHidden(true)
+                
+                    .navigationDestination(isPresented: $gameData.isWin) {
+                        GameLoadingView()
+                    }
             }
         }
     }

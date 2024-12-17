@@ -1,18 +1,18 @@
 import SwiftUI
 
-struct StrawLoadingView: View {
-    @StateObject var strawLoadingModel =  StrawLoadingViewModel()
+struct BouncingLoadingView: View {
+    @StateObject var bouncingLoadingModel =  BouncingLoadingViewModel()
     @Environment(\.verticalSizeClass) var verticalSizeClass
     
     var body: some View {
         GeometryReader { geometry in
             if verticalSizeClass == .compact {
                 ZStack {
-                    Image(CandyImageName.starCannonImageH.rawValue)
+                    Image(CandyImageName.menuBackBouncing.rawValue)
                         .resizable()
                         .ignoresSafeArea()
                     
-                    Image(CandyImageName.strawCannonLabelBack.rawValue)
+                    Image(CandyImageName.backLabelBouncingApple.rawValue)
                         .resizable()
                         .frame(width: geometry.size.width / 2, height: geometry.size.height / 2)
                         .offset(x: geometry.size.width / -3, y: -geometry.size.height / 4.6)
@@ -27,16 +27,16 @@ struct StrawLoadingView: View {
                         .frame(width: 350, height: 220)
                         .position(x: geometry.size.width / 1.4, y: geometry.size.height / 3.2)
                     
-                    Text("MINI GAME 1")
+                    Text("MINI GAME 3")
                         .Lucky(size: 30, color: .pink, colorOutline: .white)
                         .offset(x: 120, y: -120)
                     
-                    Text("Tap the cannon to knock down all the bananas and get the winnings!")
+                    Text("Connect all the cherry with plum to get candy!")
                         .Lucky(size: 20, color: .pink, colorOutline: .white)
                         .frame(width: 300)
-                        .offset(x: 170, y: -60)
+                        .offset(x: 180, y: -60)
                     
-                    Text("STRAW CANNON")
+                    Text("BOUNCING APPLE")
                         .Lucky(size: 40)
                         .rotationEffect(.degrees(-15))
                         .offset(x: -260, y: -110)
@@ -53,31 +53,31 @@ struct StrawLoadingView: View {
                             
                             Image(CandyImageName.loadLine.rawValue)
                                 .resizable()
-                                .frame(width: geometry.size.width / strawLoadingModel.loadScreenH().0, height: 20)
-                                .offset(x: strawLoadingModel.loadScreenH().1, y: -2)
+                                .frame(width: geometry.size.width / bouncingLoadingModel.loadScreenH().0, height: 20)
+                                .offset(x: bouncingLoadingModel.loadScreenH().1, y: -2)
                         }
-                        Text(strawLoadingModel.loadScreenH().2)
+                        Text(bouncingLoadingModel.loadScreenH().2)
                             .Lucky(size: 24)
                     }
                     .position(x: geometry.size.width / 2, y: geometry.size.height / 2)
                 }
                 .onAppear {
-                    strawLoadingModel.startTimer()
+                    bouncingLoadingModel.startTimer()
 
                     DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                        strawLoadingModel.currentIndex = 1
+                        bouncingLoadingModel.currentIndex = 1
                     }
                     
                     DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
-                        strawLoadingModel.currentIndex = 2
+                        bouncingLoadingModel.currentIndex = 2
                     }
                     
                     DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-                        strawLoadingModel.isCannon = true
+                        bouncingLoadingModel.isBouncing = true
                     }
                 }
-                .navigationDestination(isPresented: $strawLoadingModel.isCannon) {
-                    StrawCannonView()
+                .navigationDestination(isPresented: $bouncingLoadingModel.isBouncing) {
+                    BouncingAppleView()
                 }
             }
         }
@@ -86,6 +86,6 @@ struct StrawLoadingView: View {
 }
 
 #Preview {
-    StrawLoadingView()
+    BouncingLoadingView()
 }
 

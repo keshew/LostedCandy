@@ -127,4 +127,11 @@ public enum CandyImageName: String {
     case gameTimerBack = "gameTimerBack"
     case tipsLabel = "tipsLabel"
     case strawCannonLabelBack = "strawCannonLabelBack"
+    case emberAtoll = "emberAtoll"
+    case sugarSecondMap = "sugarSecondMapH"
+    case candyCoveSecondMap = "candyCoveSecondMapH"
+    case sugarSecondMapH = "sugarSecondMap"
+    case candyCoveSecondMapH = "candyCoveSecondMap"
+    case emberAtollH = "emberAtollH"
+    case starCannonImageH = "starCannonImageH"
 }
