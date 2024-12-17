@@ -7,18 +7,135 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8609629F2D10C6E00026F430 /* BoomBlust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8609629E2D10C6E00026F430 /* BoomBlust.swift */; };
+		860962A22D10C6F80026F430 /* BoomBlustData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860962A12D10C6F80026F430 /* BoomBlustData.swift */; };
+		860962A42D10C7F20026F430 /* BoomBlustExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860962A32D10C7F20026F430 /* BoomBlustExtension.swift */; };
+		860962A72D10CA9B0026F430 /* StrawCannon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860962A62D10CA9B0026F430 /* StrawCannon.swift */; };
+		860962A92D10CAA70026F430 /* StrawCannonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860962A82D10CAA70026F430 /* StrawCannonExtension.swift */; };
+		860962AB2D10CAAF0026F430 /* StrawCannonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860962AA2D10CAAF0026F430 /* StrawCannonData.swift */; };
+		860962AE2D10CF0B0026F430 /* StarCatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860962AD2D10CF0B0026F430 /* StarCatching.swift */; };
+		860962B02D10CF160026F430 /* StarCathcingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860962AF2D10CF160026F430 /* StarCathcingExtension.swift */; };
+		860962B22D10CF250026F430 /* StarCatchingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860962B12D10CF250026F430 /* StarCatchingData.swift */; };
+		860962B52D10DA690026F430 /* BouncingApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860962B42D10DA690026F430 /* BouncingApple.swift */; };
+		860962B72D10DA750026F430 /* BouncingAppleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860962B62D10DA750026F430 /* BouncingAppleExtension.swift */; };
+		860962B92D10DA7C0026F430 /* BouncingAppleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860962B82D10DA7C0026F430 /* BouncingAppleData.swift */; };
+		860962BF2D10F2490026F430 /* CandyWinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860962BC2D10F2490026F430 /* CandyWinView.swift */; };
+		860962C02D10F2490026F430 /* CandyWinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860962BD2D10F2490026F430 /* CandyWinModel.swift */; };
+		860962C12D10F2490026F430 /* CandyWinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860962BE2D10F2490026F430 /* CandyWinViewModel.swift */; };
+		860962C62D11010C0026F430 /* MainGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860962C32D11010C0026F430 /* MainGameView.swift */; };
+		860962C72D11010C0026F430 /* MainGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860962C42D11010C0026F430 /* MainGameModel.swift */; };
+		860962C82D11010C0026F430 /* MainGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860962C52D11010C0026F430 /* MainGameViewModel.swift */; };
+		8644A2AE2D10513E00FF6836 /* BouncingAppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8644A2AB2D10513E00FF6836 /* BouncingAppleView.swift */; };
+		8644A2AF2D10513E00FF6836 /* BouncingAppleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8644A2AC2D10513E00FF6836 /* BouncingAppleModel.swift */; };
+		8644A2B02D10513E00FF6836 /* BouncingAppleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8644A2AD2D10513E00FF6836 /* BouncingAppleViewModel.swift */; };
 		868B19E42D0AE0CB002C7121 /* LostedCandyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868B19E32D0AE0CB002C7121 /* LostedCandyApp.swift */; };
-		868B19E62D0AE0CB002C7121 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868B19E52D0AE0CB002C7121 /* ContentView.swift */; };
 		868B19E82D0AE0CC002C7121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868B19E72D0AE0CC002C7121 /* Assets.xcassets */; };
 		868B19EB2D0AE0CC002C7121 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868B19EA2D0AE0CC002C7121 /* Preview Assets.xcassets */; };
+		8692F5562D0F728C00B5C0A8 /* BoomBlustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8692F5532D0F728C00B5C0A8 /* BoomBlustView.swift */; };
+		8692F5572D0F728C00B5C0A8 /* BoomBlustModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8692F5542D0F728C00B5C0A8 /* BoomBlustModel.swift */; };
+		8692F5582D0F728C00B5C0A8 /* BoomBlustViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8692F5552D0F728C00B5C0A8 /* BoomBlustViewModel.swift */; };
+		8692F55D2D0F9CE700B5C0A8 /* StrawCannonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8692F55A2D0F9CE700B5C0A8 /* StrawCannonView.swift */; };
+		8692F55E2D0F9CE700B5C0A8 /* StrawCannonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8692F55B2D0F9CE700B5C0A8 /* StrawCannonModel.swift */; };
+		8692F55F2D0F9CE700B5C0A8 /* StrawCannonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8692F55C2D0F9CE700B5C0A8 /* StrawCannonViewModel.swift */; };
+		8692F5642D0FAF6600B5C0A8 /* StarCatchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8692F5612D0FAF6600B5C0A8 /* StarCatchingView.swift */; };
+		8692F5652D0FAF6600B5C0A8 /* StarCatchingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8692F5622D0FAF6600B5C0A8 /* StarCatchingModel.swift */; };
+		8692F5662D0FAF6600B5C0A8 /* StarCatchingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8692F5632D0FAF6600B5C0A8 /* StarCatchingViewModel.swift */; };
+		869E3B672D117D1A0086E4C2 /* GameLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E3B642D117D1A0086E4C2 /* GameLoadingView.swift */; };
+		869E3B682D117D1A0086E4C2 /* GameLoadingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E3B652D117D1A0086E4C2 /* GameLoadingModel.swift */; };
+		869E3B692D117D1A0086E4C2 /* GameLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E3B662D117D1A0086E4C2 /* GameLoadingViewModel.swift */; };
+		869E3B6E2D1183150086E4C2 /* StrawLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E3B6B2D1183150086E4C2 /* StrawLoadingView.swift */; };
+		869E3B6F2D1183150086E4C2 /* StrawLoadingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E3B6C2D1183150086E4C2 /* StrawLoadingModel.swift */; };
+		869E3B702D1183150086E4C2 /* StrawLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E3B6D2D1183150086E4C2 /* StrawLoadingViewModel.swift */; };
+		869E3B752D11872C0086E4C2 /* StarLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E3B722D11872C0086E4C2 /* StarLoadingView.swift */; };
+		869E3B762D11872C0086E4C2 /* StarLoadingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E3B732D11872C0086E4C2 /* StarLoadingModel.swift */; };
+		869E3B772D11872C0086E4C2 /* StarLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E3B742D11872C0086E4C2 /* StarLoadingViewModel.swift */; };
+		86C2D6742D0B038F0052F15F /* CandyImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D6732D0B038F0052F15F /* CandyImageName.swift */; };
+		86C2D67B2D0B03F60052F15F /* CandyMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D6782D0B03F60052F15F /* CandyMenuView.swift */; };
+		86C2D67C2D0B03F60052F15F /* CandyMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D6792D0B03F60052F15F /* CandyMenuModel.swift */; };
+		86C2D67D2D0B03F60052F15F /* CandyMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D67A2D0B03F60052F15F /* CandyMenuViewModel.swift */; };
+		86C2D6812D0B09730052F15F /* LuckiestGuy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86C2D67F2D0B09500052F15F /* LuckiestGuy-Regular.ttf */; };
+		86C2D6842D0B09910052F15F /* TextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D6832D0B09910052F15F /* TextExtension.swift */; };
+		86C2D6882D0B09D00052F15F /* OutlineExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D6872D0B09D00052F15F /* OutlineExtension.swift */; };
+		86C2D68B2D0B106C0052F15F /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D68A2D0B106C0052F15F /* CustomButtons.swift */; };
+		86C2D6902D0B23C50052F15F /* CandyLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D68D2D0B23C50052F15F /* CandyLoadingView.swift */; };
+		86C2D6912D0B23C50052F15F /* CandyLoadingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D68E2D0B23C50052F15F /* CandyLoadingModel.swift */; };
+		86C2D6922D0B23C50052F15F /* CandyLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D68F2D0B23C50052F15F /* CandyLoadingViewModel.swift */; };
+		86C2D6972D0B28530052F15F /* CandyShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D6942D0B28530052F15F /* CandyShopView.swift */; };
+		86C2D6982D0B28530052F15F /* CandyShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D6952D0B28530052F15F /* CandyShopModel.swift */; };
+		86C2D6992D0B28530052F15F /* CandyShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D6962D0B28530052F15F /* CandyShopViewModel.swift */; };
+		86FB4FD52D0CB25C00B19125 /* CandyStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FB4FD22D0CB25C00B19125 /* CandyStageView.swift */; };
+		86FB4FD62D0CB25C00B19125 /* CandyStageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FB4FD32D0CB25C00B19125 /* CandyStageModel.swift */; };
+		86FB4FD72D0CB25C00B19125 /* CandyStageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FB4FD42D0CB25C00B19125 /* CandyStageViewModel.swift */; };
+		86FB4FDC2D0CE4FE00B19125 /* CandySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FB4FD92D0CE4FE00B19125 /* CandySettingsView.swift */; };
+		86FB4FDD2D0CE4FE00B19125 /* CandySettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FB4FDA2D0CE4FE00B19125 /* CandySettingsModel.swift */; };
+		86FB4FDE2D0CE4FE00B19125 /* CandySettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FB4FDB2D0CE4FE00B19125 /* CandySettingsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8609629E2D10C6E00026F430 /* BoomBlust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomBlust.swift; sourceTree = "<group>"; };
+		860962A12D10C6F80026F430 /* BoomBlustData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomBlustData.swift; sourceTree = "<group>"; };
+		860962A32D10C7F20026F430 /* BoomBlustExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomBlustExtension.swift; sourceTree = "<group>"; };
+		860962A62D10CA9B0026F430 /* StrawCannon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawCannon.swift; sourceTree = "<group>"; };
+		860962A82D10CAA70026F430 /* StrawCannonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawCannonExtension.swift; sourceTree = "<group>"; };
+		860962AA2D10CAAF0026F430 /* StrawCannonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawCannonData.swift; sourceTree = "<group>"; };
+		860962AD2D10CF0B0026F430 /* StarCatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCatching.swift; sourceTree = "<group>"; };
+		860962AF2D10CF160026F430 /* StarCathcingExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCathcingExtension.swift; sourceTree = "<group>"; };
+		860962B12D10CF250026F430 /* StarCatchingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCatchingData.swift; sourceTree = "<group>"; };
+		860962B42D10DA690026F430 /* BouncingApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingApple.swift; sourceTree = "<group>"; };
+		860962B62D10DA750026F430 /* BouncingAppleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingAppleExtension.swift; sourceTree = "<group>"; };
+		860962B82D10DA7C0026F430 /* BouncingAppleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingAppleData.swift; sourceTree = "<group>"; };
+		860962BC2D10F2490026F430 /* CandyWinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyWinView.swift; sourceTree = "<group>"; };
+		860962BD2D10F2490026F430 /* CandyWinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyWinModel.swift; sourceTree = "<group>"; };
+		860962BE2D10F2490026F430 /* CandyWinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyWinViewModel.swift; sourceTree = "<group>"; };
+		860962C32D11010C0026F430 /* MainGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameView.swift; sourceTree = "<group>"; };
+		860962C42D11010C0026F430 /* MainGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameModel.swift; sourceTree = "<group>"; };
+		860962C52D11010C0026F430 /* MainGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameViewModel.swift; sourceTree = "<group>"; };
+		8644A2AB2D10513E00FF6836 /* BouncingAppleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingAppleView.swift; sourceTree = "<group>"; };
+		8644A2AC2D10513E00FF6836 /* BouncingAppleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingAppleModel.swift; sourceTree = "<group>"; };
+		8644A2AD2D10513E00FF6836 /* BouncingAppleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingAppleViewModel.swift; sourceTree = "<group>"; };
 		868B19E02D0AE0CB002C7121 /* LostedCandy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LostedCandy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		868B19E32D0AE0CB002C7121 /* LostedCandyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostedCandyApp.swift; sourceTree = "<group>"; };
-		868B19E52D0AE0CB002C7121 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		868B19E72D0AE0CC002C7121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		868B19EA2D0AE0CC002C7121 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8692F5532D0F728C00B5C0A8 /* BoomBlustView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomBlustView.swift; sourceTree = "<group>"; };
+		8692F5542D0F728C00B5C0A8 /* BoomBlustModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomBlustModel.swift; sourceTree = "<group>"; };
+		8692F5552D0F728C00B5C0A8 /* BoomBlustViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomBlustViewModel.swift; sourceTree = "<group>"; };
+		8692F55A2D0F9CE700B5C0A8 /* StrawCannonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawCannonView.swift; sourceTree = "<group>"; };
+		8692F55B2D0F9CE700B5C0A8 /* StrawCannonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawCannonModel.swift; sourceTree = "<group>"; };
+		8692F55C2D0F9CE700B5C0A8 /* StrawCannonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawCannonViewModel.swift; sourceTree = "<group>"; };
+		8692F5612D0FAF6600B5C0A8 /* StarCatchingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCatchingView.swift; sourceTree = "<group>"; };
+		8692F5622D0FAF6600B5C0A8 /* StarCatchingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCatchingModel.swift; sourceTree = "<group>"; };
+		8692F5632D0FAF6600B5C0A8 /* StarCatchingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCatchingViewModel.swift; sourceTree = "<group>"; };
+		869E3B642D117D1A0086E4C2 /* GameLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLoadingView.swift; sourceTree = "<group>"; };
+		869E3B652D117D1A0086E4C2 /* GameLoadingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLoadingModel.swift; sourceTree = "<group>"; };
+		869E3B662D117D1A0086E4C2 /* GameLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLoadingViewModel.swift; sourceTree = "<group>"; };
+		869E3B6B2D1183150086E4C2 /* StrawLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawLoadingView.swift; sourceTree = "<group>"; };
+		869E3B6C2D1183150086E4C2 /* StrawLoadingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawLoadingModel.swift; sourceTree = "<group>"; };
+		869E3B6D2D1183150086E4C2 /* StrawLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawLoadingViewModel.swift; sourceTree = "<group>"; };
+		869E3B722D11872C0086E4C2 /* StarLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarLoadingView.swift; sourceTree = "<group>"; };
+		869E3B732D11872C0086E4C2 /* StarLoadingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarLoadingModel.swift; sourceTree = "<group>"; };
+		869E3B742D11872C0086E4C2 /* StarLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarLoadingViewModel.swift; sourceTree = "<group>"; };
+		86C2D6732D0B038F0052F15F /* CandyImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyImageName.swift; sourceTree = "<group>"; };
+		86C2D6782D0B03F60052F15F /* CandyMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyMenuView.swift; sourceTree = "<group>"; };
+		86C2D6792D0B03F60052F15F /* CandyMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyMenuModel.swift; sourceTree = "<group>"; };
+		86C2D67A2D0B03F60052F15F /* CandyMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyMenuViewModel.swift; sourceTree = "<group>"; };
+		86C2D67F2D0B09500052F15F /* LuckiestGuy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LuckiestGuy-Regular.ttf"; sourceTree = "<group>"; };
+		86C2D6802D0B095F0052F15F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		86C2D6832D0B09910052F15F /* TextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtension.swift; sourceTree = "<group>"; };
+		86C2D6872D0B09D00052F15F /* OutlineExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineExtension.swift; sourceTree = "<group>"; };
+		86C2D68A2D0B106C0052F15F /* CustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
+		86C2D68D2D0B23C50052F15F /* CandyLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyLoadingView.swift; sourceTree = "<group>"; };
+		86C2D68E2D0B23C50052F15F /* CandyLoadingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyLoadingModel.swift; sourceTree = "<group>"; };
+		86C2D68F2D0B23C50052F15F /* CandyLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyLoadingViewModel.swift; sourceTree = "<group>"; };
+		86C2D6942D0B28530052F15F /* CandyShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyShopView.swift; sourceTree = "<group>"; };
+		86C2D6952D0B28530052F15F /* CandyShopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyShopModel.swift; sourceTree = "<group>"; };
+		86C2D6962D0B28530052F15F /* CandyShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyShopViewModel.swift; sourceTree = "<group>"; };
+		86FB4FD22D0CB25C00B19125 /* CandyStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyStageView.swift; sourceTree = "<group>"; };
+		86FB4FD32D0CB25C00B19125 /* CandyStageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyStageModel.swift; sourceTree = "<group>"; };
+		86FB4FD42D0CB25C00B19125 /* CandyStageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyStageViewModel.swift; sourceTree = "<group>"; };
+		86FB4FD92D0CE4FE00B19125 /* CandySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandySettingsView.swift; sourceTree = "<group>"; };
+		86FB4FDA2D0CE4FE00B19125 /* CandySettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandySettingsModel.swift; sourceTree = "<group>"; };
+		86FB4FDB2D0CE4FE00B19125 /* CandySettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandySettingsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +149,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		860962A02D10C6E60026F430 /* BoomGameScene */ = {
+			isa = PBXGroup;
+			children = (
+				8609629E2D10C6E00026F430 /* BoomBlust.swift */,
+				860962A32D10C7F20026F430 /* BoomBlustExtension.swift */,
+				860962A12D10C6F80026F430 /* BoomBlustData.swift */,
+			);
+			path = BoomGameScene;
+			sourceTree = "<group>";
+		};
+		860962A52D10CA7B0026F430 /* StrawGameScene */ = {
+			isa = PBXGroup;
+			children = (
+				860962A62D10CA9B0026F430 /* StrawCannon.swift */,
+				860962A82D10CAA70026F430 /* StrawCannonExtension.swift */,
+				860962AA2D10CAAF0026F430 /* StrawCannonData.swift */,
+			);
+			path = StrawGameScene;
+			sourceTree = "<group>";
+		};
+		860962AC2D10CEEB0026F430 /* StarGameScene */ = {
+			isa = PBXGroup;
+			children = (
+				860962AD2D10CF0B0026F430 /* StarCatching.swift */,
+				860962AF2D10CF160026F430 /* StarCathcingExtension.swift */,
+				860962B12D10CF250026F430 /* StarCatchingData.swift */,
+			);
+			path = StarGameScene;
+			sourceTree = "<group>";
+		};
+		860962B32D10DA570026F430 /* BouncingGameScene */ = {
+			isa = PBXGroup;
+			children = (
+				860962B42D10DA690026F430 /* BouncingApple.swift */,
+				860962B62D10DA750026F430 /* BouncingAppleExtension.swift */,
+				860962B82D10DA7C0026F430 /* BouncingAppleData.swift */,
+			);
+			path = BouncingGameScene;
+			sourceTree = "<group>";
+		};
+		860962BA2D10DAFD0026F430 /* MiniGames */ = {
+			isa = PBXGroup;
+			children = (
+				8644A2AA2D10511400FF6836 /* BouncingAppleModule */,
+				8692F5602D0FAF5500B5C0A8 /* StarCatchingModule */,
+				8692F5592D0F9CD100B5C0A8 /* StrawCannonModule */,
+				8692F5522D0F727400B5C0A8 /* BoomBlustModule */,
+			);
+			path = MiniGames;
+			sourceTree = "<group>";
+		};
+		860962BB2D10F2330026F430 /* CandyWinModule */ = {
+			isa = PBXGroup;
+			children = (
+				860962BC2D10F2490026F430 /* CandyWinView.swift */,
+				860962BD2D10F2490026F430 /* CandyWinModel.swift */,
+				860962BE2D10F2490026F430 /* CandyWinViewModel.swift */,
+			);
+			path = CandyWinModule;
+			sourceTree = "<group>";
+		};
+		860962C22D1100FE0026F430 /* MainGameModule */ = {
+			isa = PBXGroup;
+			children = (
+				860962C32D11010C0026F430 /* MainGameView.swift */,
+				860962C42D11010C0026F430 /* MainGameModel.swift */,
+				860962C52D11010C0026F430 /* MainGameViewModel.swift */,
+			);
+			path = MainGameModule;
+			sourceTree = "<group>";
+		};
+		8644A2AA2D10511400FF6836 /* BouncingAppleModule */ = {
+			isa = PBXGroup;
+			children = (
+				8644A2AB2D10513E00FF6836 /* BouncingAppleView.swift */,
+				8644A2AC2D10513E00FF6836 /* BouncingAppleModel.swift */,
+				8644A2AD2D10513E00FF6836 /* BouncingAppleViewModel.swift */,
+				860962B32D10DA570026F430 /* BouncingGameScene */,
+			);
+			path = BouncingAppleModule;
+			sourceTree = "<group>";
+		};
 		868B19D72D0AE0CB002C7121 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +250,22 @@
 		868B19E22D0AE0CB002C7121 /* LostedCandy */ = {
 			isa = PBXGroup;
 			children = (
+				86C2D6802D0B095F0052F15F /* Info.plist */,
 				868B19E32D0AE0CB002C7121 /* LostedCandyApp.swift */,
-				868B19E52D0AE0CB002C7121 /* ContentView.swift */,
 				868B19E72D0AE0CC002C7121 /* Assets.xcassets */,
+				869E3B712D11871B0086E4C2 /* StarCatchingLoadingModule */,
+				869E3B6A2D1183010086E4C2 /* StrawCannonLoadingModule */,
+				869E3B632D117D0E0086E4C2 /* GameLoadingModule */,
+				860962C22D1100FE0026F430 /* MainGameModule */,
+				860962BA2D10DAFD0026F430 /* MiniGames */,
+				86FB4FD82D0CE4F100B19125 /* CandySettingsModule */,
+				860962BB2D10F2330026F430 /* CandyWinModule */,
+				86FB4FD12D0CB24B00B19125 /* CandyStageModule */,
+				86C2D6932D0B28430052F15F /* CandyShopModule */,
+				86C2D6772D0B03E80052F15F /* CandyMenuModule */,
+				86C2D68C2D0B23B00052F15F /* CandyLoadingModule */,
+				86C2D6762D0B03CF0052F15F /* Helpers */,
+				86C2D6822D0B09890052F15F /* Extensions */,
 				868B19E92D0AE0CC002C7121 /* Preview Content */,
 			);
 			path = LostedCandy;
@@ -65,6 +277,178 @@
 				868B19EA2D0AE0CC002C7121 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8692F5522D0F727400B5C0A8 /* BoomBlustModule */ = {
+			isa = PBXGroup;
+			children = (
+				8692F5532D0F728C00B5C0A8 /* BoomBlustView.swift */,
+				8692F5542D0F728C00B5C0A8 /* BoomBlustModel.swift */,
+				8692F5552D0F728C00B5C0A8 /* BoomBlustViewModel.swift */,
+				860962A02D10C6E60026F430 /* BoomGameScene */,
+			);
+			path = BoomBlustModule;
+			sourceTree = "<group>";
+		};
+		8692F5592D0F9CD100B5C0A8 /* StrawCannonModule */ = {
+			isa = PBXGroup;
+			children = (
+				8692F55A2D0F9CE700B5C0A8 /* StrawCannonView.swift */,
+				8692F55B2D0F9CE700B5C0A8 /* StrawCannonModel.swift */,
+				8692F55C2D0F9CE700B5C0A8 /* StrawCannonViewModel.swift */,
+				860962A52D10CA7B0026F430 /* StrawGameScene */,
+			);
+			path = StrawCannonModule;
+			sourceTree = "<group>";
+		};
+		8692F5602D0FAF5500B5C0A8 /* StarCatchingModule */ = {
+			isa = PBXGroup;
+			children = (
+				8692F5612D0FAF6600B5C0A8 /* StarCatchingView.swift */,
+				8692F5622D0FAF6600B5C0A8 /* StarCatchingModel.swift */,
+				8692F5632D0FAF6600B5C0A8 /* StarCatchingViewModel.swift */,
+				860962AC2D10CEEB0026F430 /* StarGameScene */,
+			);
+			path = StarCatchingModule;
+			sourceTree = "<group>";
+		};
+		869E3B632D117D0E0086E4C2 /* GameLoadingModule */ = {
+			isa = PBXGroup;
+			children = (
+				869E3B642D117D1A0086E4C2 /* GameLoadingView.swift */,
+				869E3B652D117D1A0086E4C2 /* GameLoadingModel.swift */,
+				869E3B662D117D1A0086E4C2 /* GameLoadingViewModel.swift */,
+			);
+			path = GameLoadingModule;
+			sourceTree = "<group>";
+		};
+		869E3B6A2D1183010086E4C2 /* StrawCannonLoadingModule */ = {
+			isa = PBXGroup;
+			children = (
+				869E3B6B2D1183150086E4C2 /* StrawLoadingView.swift */,
+				869E3B6C2D1183150086E4C2 /* StrawLoadingModel.swift */,
+				869E3B6D2D1183150086E4C2 /* StrawLoadingViewModel.swift */,
+			);
+			path = StrawCannonLoadingModule;
+			sourceTree = "<group>";
+		};
+		869E3B712D11871B0086E4C2 /* StarCatchingLoadingModule */ = {
+			isa = PBXGroup;
+			children = (
+				869E3B722D11872C0086E4C2 /* StarLoadingView.swift */,
+				869E3B732D11872C0086E4C2 /* StarLoadingModel.swift */,
+				869E3B742D11872C0086E4C2 /* StarLoadingViewModel.swift */,
+			);
+			path = StarCatchingLoadingModule;
+			sourceTree = "<group>";
+		};
+		86C2D6752D0B03C80052F15F /* CandyImageName */ = {
+			isa = PBXGroup;
+			children = (
+				86C2D6732D0B038F0052F15F /* CandyImageName.swift */,
+			);
+			path = CandyImageName;
+			sourceTree = "<group>";
+		};
+		86C2D6762D0B03CF0052F15F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				86C2D6892D0B10520052F15F /* CustomButtons */,
+				86C2D67E2D0B09450052F15F /* Fonts */,
+				86C2D6752D0B03C80052F15F /* CandyImageName */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		86C2D6772D0B03E80052F15F /* CandyMenuModule */ = {
+			isa = PBXGroup;
+			children = (
+				86C2D6782D0B03F60052F15F /* CandyMenuView.swift */,
+				86C2D6792D0B03F60052F15F /* CandyMenuModel.swift */,
+				86C2D67A2D0B03F60052F15F /* CandyMenuViewModel.swift */,
+			);
+			path = CandyMenuModule;
+			sourceTree = "<group>";
+		};
+		86C2D67E2D0B09450052F15F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				86C2D67F2D0B09500052F15F /* LuckiestGuy-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		86C2D6822D0B09890052F15F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				86C2D6862D0B09C00052F15F /* OutlineExtension */,
+				86C2D6852D0B09B90052F15F /* TextExtension */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		86C2D6852D0B09B90052F15F /* TextExtension */ = {
+			isa = PBXGroup;
+			children = (
+				86C2D6832D0B09910052F15F /* TextExtension.swift */,
+			);
+			path = TextExtension;
+			sourceTree = "<group>";
+		};
+		86C2D6862D0B09C00052F15F /* OutlineExtension */ = {
+			isa = PBXGroup;
+			children = (
+				86C2D6872D0B09D00052F15F /* OutlineExtension.swift */,
+			);
+			path = OutlineExtension;
+			sourceTree = "<group>";
+		};
+		86C2D6892D0B10520052F15F /* CustomButtons */ = {
+			isa = PBXGroup;
+			children = (
+				86C2D68A2D0B106C0052F15F /* CustomButtons.swift */,
+			);
+			path = CustomButtons;
+			sourceTree = "<group>";
+		};
+		86C2D68C2D0B23B00052F15F /* CandyLoadingModule */ = {
+			isa = PBXGroup;
+			children = (
+				86C2D68D2D0B23C50052F15F /* CandyLoadingView.swift */,
+				86C2D68E2D0B23C50052F15F /* CandyLoadingModel.swift */,
+				86C2D68F2D0B23C50052F15F /* CandyLoadingViewModel.swift */,
+			);
+			path = CandyLoadingModule;
+			sourceTree = "<group>";
+		};
+		86C2D6932D0B28430052F15F /* CandyShopModule */ = {
+			isa = PBXGroup;
+			children = (
+				86C2D6942D0B28530052F15F /* CandyShopView.swift */,
+				86C2D6952D0B28530052F15F /* CandyShopModel.swift */,
+				86C2D6962D0B28530052F15F /* CandyShopViewModel.swift */,
+			);
+			path = CandyShopModule;
+			sourceTree = "<group>";
+		};
+		86FB4FD12D0CB24B00B19125 /* CandyStageModule */ = {
+			isa = PBXGroup;
+			children = (
+				86FB4FD22D0CB25C00B19125 /* CandyStageView.swift */,
+				86FB4FD32D0CB25C00B19125 /* CandyStageModel.swift */,
+				86FB4FD42D0CB25C00B19125 /* CandyStageViewModel.swift */,
+			);
+			path = CandyStageModule;
+			sourceTree = "<group>";
+		};
+		86FB4FD82D0CE4F100B19125 /* CandySettingsModule */ = {
+			isa = PBXGroup;
+			children = (
+				86FB4FD92D0CE4FE00B19125 /* CandySettingsView.swift */,
+				86FB4FDA2D0CE4FE00B19125 /* CandySettingsModel.swift */,
+				86FB4FDB2D0CE4FE00B19125 /* CandySettingsViewModel.swift */,
+			);
+			path = CandySettingsModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +509,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86C2D6812D0B09730052F15F /* LuckiestGuy-Regular.ttf in Resources */,
 				868B19EB2D0AE0CC002C7121 /* Preview Assets.xcassets in Resources */,
 				868B19E82D0AE0CC002C7121 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +522,65 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				868B19E62D0AE0CB002C7121 /* ContentView.swift in Sources */,
+				860962A92D10CAA70026F430 /* StrawCannonExtension.swift in Sources */,
+				8692F5642D0FAF6600B5C0A8 /* StarCatchingView.swift in Sources */,
+				8692F5652D0FAF6600B5C0A8 /* StarCatchingModel.swift in Sources */,
+				8692F5662D0FAF6600B5C0A8 /* StarCatchingViewModel.swift in Sources */,
+				8644A2AE2D10513E00FF6836 /* BouncingAppleView.swift in Sources */,
+				8644A2AF2D10513E00FF6836 /* BouncingAppleModel.swift in Sources */,
+				860962B02D10CF160026F430 /* StarCathcingExtension.swift in Sources */,
+				8644A2B02D10513E00FF6836 /* BouncingAppleViewModel.swift in Sources */,
+				8692F5562D0F728C00B5C0A8 /* BoomBlustView.swift in Sources */,
+				860962B22D10CF250026F430 /* StarCatchingData.swift in Sources */,
+				8692F5572D0F728C00B5C0A8 /* BoomBlustModel.swift in Sources */,
+				8692F5582D0F728C00B5C0A8 /* BoomBlustViewModel.swift in Sources */,
+				860962A22D10C6F80026F430 /* BoomBlustData.swift in Sources */,
+				860962BF2D10F2490026F430 /* CandyWinView.swift in Sources */,
+				860962C02D10F2490026F430 /* CandyWinModel.swift in Sources */,
+				860962C12D10F2490026F430 /* CandyWinViewModel.swift in Sources */,
+				86FB4FDC2D0CE4FE00B19125 /* CandySettingsView.swift in Sources */,
+				86FB4FDD2D0CE4FE00B19125 /* CandySettingsModel.swift in Sources */,
+				860962C62D11010C0026F430 /* MainGameView.swift in Sources */,
+				860962C72D11010C0026F430 /* MainGameModel.swift in Sources */,
+				860962C82D11010C0026F430 /* MainGameViewModel.swift in Sources */,
+				86FB4FDE2D0CE4FE00B19125 /* CandySettingsViewModel.swift in Sources */,
+				86C2D68B2D0B106C0052F15F /* CustomButtons.swift in Sources */,
+				8609629F2D10C6E00026F430 /* BoomBlust.swift in Sources */,
+				86C2D67B2D0B03F60052F15F /* CandyMenuView.swift in Sources */,
+				86C2D67C2D0B03F60052F15F /* CandyMenuModel.swift in Sources */,
+				86C2D67D2D0B03F60052F15F /* CandyMenuViewModel.swift in Sources */,
 				868B19E42D0AE0CB002C7121 /* LostedCandyApp.swift in Sources */,
+				86C2D6842D0B09910052F15F /* TextExtension.swift in Sources */,
+				86FB4FD52D0CB25C00B19125 /* CandyStageView.swift in Sources */,
+				869E3B672D117D1A0086E4C2 /* GameLoadingView.swift in Sources */,
+				869E3B682D117D1A0086E4C2 /* GameLoadingModel.swift in Sources */,
+				869E3B692D117D1A0086E4C2 /* GameLoadingViewModel.swift in Sources */,
+				860962B72D10DA750026F430 /* BouncingAppleExtension.swift in Sources */,
+				869E3B6E2D1183150086E4C2 /* StrawLoadingView.swift in Sources */,
+				869E3B6F2D1183150086E4C2 /* StrawLoadingModel.swift in Sources */,
+				869E3B702D1183150086E4C2 /* StrawLoadingViewModel.swift in Sources */,
+				860962AB2D10CAAF0026F430 /* StrawCannonData.swift in Sources */,
+				86FB4FD62D0CB25C00B19125 /* CandyStageModel.swift in Sources */,
+				86FB4FD72D0CB25C00B19125 /* CandyStageViewModel.swift in Sources */,
+				86C2D6742D0B038F0052F15F /* CandyImageName.swift in Sources */,
+				860962AE2D10CF0B0026F430 /* StarCatching.swift in Sources */,
+				8692F55D2D0F9CE700B5C0A8 /* StrawCannonView.swift in Sources */,
+				869E3B752D11872C0086E4C2 /* StarLoadingView.swift in Sources */,
+				869E3B762D11872C0086E4C2 /* StarLoadingModel.swift in Sources */,
+				869E3B772D11872C0086E4C2 /* StarLoadingViewModel.swift in Sources */,
+				860962B92D10DA7C0026F430 /* BouncingAppleData.swift in Sources */,
+				8692F55E2D0F9CE700B5C0A8 /* StrawCannonModel.swift in Sources */,
+				860962B52D10DA690026F430 /* BouncingApple.swift in Sources */,
+				8692F55F2D0F9CE700B5C0A8 /* StrawCannonViewModel.swift in Sources */,
+				860962A42D10C7F20026F430 /* BoomBlustExtension.swift in Sources */,
+				86C2D6882D0B09D00052F15F /* OutlineExtension.swift in Sources */,
+				86C2D6902D0B23C50052F15F /* CandyLoadingView.swift in Sources */,
+				86C2D6912D0B23C50052F15F /* CandyLoadingModel.swift in Sources */,
+				86C2D6922D0B23C50052F15F /* CandyLoadingViewModel.swift in Sources */,
+				86C2D6972D0B28530052F15F /* CandyShopView.swift in Sources */,
+				86C2D6982D0B28530052F15F /* CandyShopModel.swift in Sources */,
+				860962A72D10CA9B0026F430 /* StrawCannon.swift in Sources */,
+				86C2D6992D0B28530052F15F /* CandyShopViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +717,7 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LostedCandy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +747,7 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LostedCandy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
