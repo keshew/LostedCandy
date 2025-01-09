@@ -61,24 +61,28 @@ struct StrawLoadingView: View {
                     }
                     .position(x: geometry.size.width / 2, y: geometry.size.height / 2)
                 }
-                .onAppear {
-                    strawLoadingModel.startTimer()
-
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                        strawLoadingModel.currentIndex = 1
-                    }
-                    
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
-                        strawLoadingModel.currentIndex = 2
-                    }
-                    
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-                        strawLoadingModel.isCannon = true
-                    }
-                }
+                
                 .navigationDestination(isPresented: $strawLoadingModel.isCannon) {
                     StrawCannonView()
                 }
+            }
+        }
+        .onAppear {
+            OrientationManager.setLandscapeOrientation()
+            AppDelegate.orientationLock = .landscapeLeft
+            
+            strawLoadingModel.startTimer()
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                strawLoadingModel.currentIndex = 1
+            }
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
+                strawLoadingModel.currentIndex = 2
+            }
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                strawLoadingModel.isCannon = true
             }
         }
         .navigationBarBackButtonHidden(true)

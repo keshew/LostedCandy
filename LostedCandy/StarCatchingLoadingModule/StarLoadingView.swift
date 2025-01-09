@@ -61,26 +61,31 @@ struct StarLoadingView: View {
                     }
                     .position(x: geometry.size.width / 2, y: geometry.size.height / 2)
                 }
-                .onAppear {
-                    starLoadingModel.startTimer()
-
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                        starLoadingModel.currentIndex = 1
-                    }
-                    
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
-                        starLoadingModel.currentIndex = 2
-                    }
-                    
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-                        starLoadingModel.isStar = true
-                    }
-                }
+              
                 .navigationDestination(isPresented: $starLoadingModel.isStar) {
                     StarCatchingView()
                 }
             }
         }
+        .onAppear {
+            OrientationManager.setLandscapeOrientation()
+            AppDelegate.orientationLock = .landscapeLeft
+            
+            starLoadingModel.startTimer()
+
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                starLoadingModel.currentIndex = 1
+            }
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
+                starLoadingModel.currentIndex = 2
+            }
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                starLoadingModel.isStar = true
+            }
+        }
+        
         .navigationBarBackButtonHidden(true)
     }
 }

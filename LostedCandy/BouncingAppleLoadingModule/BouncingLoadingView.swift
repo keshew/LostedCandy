@@ -61,26 +61,31 @@ struct BouncingLoadingView: View {
                     }
                     .position(x: geometry.size.width / 2, y: geometry.size.height / 2)
                 }
-                .onAppear {
-                    bouncingLoadingModel.startTimer()
-
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                        bouncingLoadingModel.currentIndex = 1
-                    }
-                    
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
-                        bouncingLoadingModel.currentIndex = 2
-                    }
-                    
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-                        bouncingLoadingModel.isBouncing = true
-                    }
-                }
+              
                 .navigationDestination(isPresented: $bouncingLoadingModel.isBouncing) {
                     BouncingAppleView()
                 }
             }
         }
+        .onAppear {
+            OrientationManager.setLandscapeOrientation()
+            AppDelegate.orientationLock = .landscapeLeft
+            
+            bouncingLoadingModel.startTimer()
+
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                bouncingLoadingModel.currentIndex = 1
+            }
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
+                bouncingLoadingModel.currentIndex = 2
+            }
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                bouncingLoadingModel.isBouncing = true
+            }
+        }
+        
         .navigationBarBackButtonHidden(true)
     }
 }

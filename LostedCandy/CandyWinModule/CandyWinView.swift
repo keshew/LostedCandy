@@ -85,6 +85,9 @@ struct CandyWinView: View {
                         
                         Button(action: {
                             candyWinModel.isMenuAvailible = true
+                            
+                            OrientationManager.setPortraitOrientation()
+                                 AppDelegate.orientationLock = .all
                         }) {
                             ZStack {
                                 Image(CandyImageName.goToLevelLabel.rawValue)
@@ -96,12 +99,12 @@ struct CandyWinView: View {
                             }
                         }
                         .offset(x: -50, y: 90)
-                        }
-                        .offset(x: -20)
+                    }
+                    .offset(x: -20)
                     
                     
                     
-                    Button(action: { 
+                    Button(action: {
                         
                     }) {
                         ZStack {
@@ -119,8 +122,13 @@ struct CandyWinView: View {
                 }
             }
         }
+        
         .navigationDestination(isPresented: $candyWinModel.isMenuAvailible) {
             CandyStageView()
+        }
+        
+        .onDisappear {
+           
         }
         
         .navigationBarBackButtonHidden(true)

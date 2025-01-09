@@ -61,26 +61,31 @@ struct BoomLoadingView: View {
                     }
                     .position(x: geometry.size.width / 2, y: geometry.size.height / 2)
                 }
-                .onAppear {
-                    boomLoadingModel.startTimer()
-
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                        boomLoadingModel.currentIndex = 1
-                    }
-                    
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
-                        boomLoadingModel.currentIndex = 2
-                    }
-                    
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-                        boomLoadingModel.isBoomBlust = true
-                    }
-                }
+              
                 .navigationDestination(isPresented: $boomLoadingModel.isBoomBlust) {
                     BoomBlustView()
                 }
             }
         }
+        .onAppear {
+            OrientationManager.setLandscapeOrientation()
+            AppDelegate.orientationLock = .landscapeLeft
+
+            boomLoadingModel.startTimer()
+
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                boomLoadingModel.currentIndex = 1
+            }
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
+                boomLoadingModel.currentIndex = 2
+            }
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                boomLoadingModel.isBoomBlust = true
+            }
+        }
+        
         .navigationBarBackButtonHidden(true)
     }
 }

@@ -77,6 +77,7 @@ struct GameLoadingView: View {
                 }
             }
         }
+        .navigationBarBackButtonHidden(true)
     }
 }
 
