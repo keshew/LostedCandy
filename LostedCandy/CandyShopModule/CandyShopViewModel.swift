@@ -9,6 +9,9 @@ class CandyShopViewModel: ObservableObject {
         isMenuAvailible = true
     }
     
+    func goTo() {
+    }
+    
     func increaseIndex() {
         if currentIndex == 0 {
             currentIndex += 1

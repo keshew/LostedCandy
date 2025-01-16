@@ -7,4 +7,6 @@ class BoomBlustData: ObservableObject {
     @Published var isPause = false
     @Published var timeLeft = 30
     @Published var numberOfCandy = 0
+    @Published var isMenu = false
+    @Published var isStage = false
 }

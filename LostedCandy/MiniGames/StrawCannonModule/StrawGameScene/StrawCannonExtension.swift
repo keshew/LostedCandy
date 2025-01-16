@@ -99,6 +99,7 @@ extension StrawCannon {
         let returnBack = SKSpriteNode(imageNamed: CandyImageName.menuBackStraw.rawValue)
         returnBack.size = CGSize(width: size.width / 5, height: size.height / 7)
         returnBack.zPosition = 10
+        returnBack.name = "returnBack"
         returnBack.position = CGPoint(x: size.width / 1.18, y: size.height / 10)
         addChild(returnBack)
         
@@ -110,10 +111,10 @@ extension StrawCannon {
         returnLabel.fontColor = .white
         addChild(returnLabel)
         
-        let pause = SKSpriteNode(imageNamed: CandyImageName.pause.rawValue)
-        pause.size = CGSize(width: size.width / 25, height: size.height / 10)
-        pause.position = CGPoint(x: size.width / 1.15, y: size.height / 1.1)
-        addChild(pause)
+//        let pause = SKSpriteNode(imageNamed: CandyImageName.pause.rawValue)
+//        pause.size = CGSize(width: size.width / 25, height: size.height / 10)
+//        pause.position = CGPoint(x: size.width / 1.15, y: size.height / 1.1)
+//        addChild(pause)
         
         let liza = SKSpriteNode(imageNamed: CandyImageName.liza.rawValue)
         liza.size = CGSize(width: size.width / 4, height: size.height / 0.95)

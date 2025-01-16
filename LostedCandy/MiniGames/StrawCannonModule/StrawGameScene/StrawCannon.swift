@@ -39,7 +39,12 @@ class StrawCannon: SKScene, SKPhysicsContactDelegate {
             
             if let tappedNode = self.atPoint(touchLocation) as? SKSpriteNode,
                tappedNode.name == "MENU" || tappedNode.name == "menuBack" {
-                print("HEY")
+                game!.isMenu = true
+            }
+            
+            if let tappedNode = self.atPoint(touchLocation) as? SKSpriteNode,
+               tappedNode.name == "returnBack" {
+                game!.isStage = true
             }
         }
     }

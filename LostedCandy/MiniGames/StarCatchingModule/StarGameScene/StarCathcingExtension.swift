@@ -153,10 +153,10 @@ extension StarCatching {
         star.position = CGPoint(x: size.width / 2.58, y: size.height / 1.62)
         addChild(star)
         
-        let pause = SKSpriteNode(imageNamed: CandyImageName.pause.rawValue)
-        pause.size = CGSize(width: size.width / 25, height: size.height / 10)
-        pause.position = CGPoint(x: size.width / 1.15, y: size.height / 1.1)
-        addChild(pause)
+//        let pause = SKSpriteNode(imageNamed: CandyImageName.pause.rawValue)
+//        pause.size = CGSize(width: size.width / 25, height: size.height / 10)
+//        pause.position = CGPoint(x: size.width / 1.15, y: size.height / 1.1)
+//        addChild(pause)
         
         let liza = SKSpriteNode(imageNamed: CandyImageName.liza.rawValue)
         liza.size = CGSize(width: size.width / 4, height: size.height / 0.95)

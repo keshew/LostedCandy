@@ -195,6 +195,7 @@ extension BouncingApple {
         
         let menuBack = SKSpriteNode(imageNamed: CandyImageName.returnBack.rawValue)
         menuBack.size = CGSize(width: size.width / 5, height: size.height / 7)
+        menuBack.name = "menuBack"
         menuBack.zPosition = 10
         menuBack.position = CGPoint(x: size.width / 1.55, y: size.height / 10)
         addChild(menuBack)
@@ -210,6 +211,7 @@ extension BouncingApple {
         let returnBack = SKSpriteNode(imageNamed: CandyImageName.returnBack.rawValue)
         returnBack.size = CGSize(width: size.width / 5, height: size.height / 7)
         returnBack.zPosition = 10
+        returnBack.name = "returnBack"
         returnBack.position = CGPoint(x: size.width / 1.18, y: size.height / 10)
         addChild(returnBack)
         

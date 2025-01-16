@@ -15,6 +15,14 @@ struct BouncingAppleView: View {
                     .navigationDestination(isPresented: $gameData.isWin) {
                         GameLoadingView()
                     }
+                
+                    .navigationDestination(isPresented: $gameData.isMenu) {
+                        CandyMenuView()
+                    }
+                
+                    .navigationDestination(isPresented: $gameData.isStage) {
+                        CandyStageView()
+                    }
             }
         }
     }

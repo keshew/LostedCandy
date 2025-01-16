@@ -61,31 +61,31 @@ struct CandyShopView: View {
                         
                         VStack() {
                             if candyShopModel.currentIndex == 0 {
-                                FirstItemToBuy(action: candyShopModel.goToMenu,
+                                FirstItemToBuy(action: candyShopModel.goTo,
                                                imageToBuy: CandyImageName.tropicalBoom.rawValue,
                                                nameOfItem: "TROPICAL BOOM")
                                 
-                                SecondItemToBuy(action: candyShopModel.goToMenu,
+                                SecondItemToBuy(action: candyShopModel.goTo,
                                                 imageToBuy: CandyImageName.boomBlast.rawValue,
                                                 nameOfItem: "BOOM BLUST")
                                 
                                 BackgroundLabel()
                                     .offset(y: 12)
                                 
-                                FirstItemToBuy(action: candyShopModel.goToMenu,
+                                FirstItemToBuy(action: candyShopModel.goTo,
                                                backItemImage: CandyImageName.candyParadise.rawValue,
                                                nameOfItem: "CANDY PARADISE")
                                 
-                                SecondItemToBuy(action: candyShopModel.goToMenu,
+                                SecondItemToBuy(action: candyShopModel.goTo,
                                                 backItemImage: CandyImageName.candySpapes.rawValue,
                                                 nameOfItem: "CANDY ESCAPES")
                                 Spacer()
                             } else {
-                                FirstItemToBuy(action: candyShopModel.goToMenu,
+                                FirstItemToBuy(action: candyShopModel.goTo,
                                                backItemImage: CandyImageName.sugarIsles.rawValue,
                                                nameOfItem: "SUGAR ISLES")
                                 
-                                SecondItemToBuy(action: candyShopModel.goToMenu,
+                                SecondItemToBuy(action: candyShopModel.goTo,
                                                 backItemImage: CandyImageName.lillipopHavens.rawValue,
                                                 nameOfItem: "LOLLIPOP HAVENS", offsetXText: 95)
                                 Spacer()
@@ -176,33 +176,33 @@ struct CandyShopView: View {
                         ScrollView(showsIndicators: false) {
                             VStack(spacing: 20) {
                                 HStack {
-                                    FirstItemToBuy(action: candyShopModel.goToMenu,
+                                    FirstItemToBuy(action: candyShopModel.goTo,
                                                    imageToBuy: CandyImageName.tropicalBoom.rawValue,
                                                    nameOfItem: "TROPICAL BOOM")
                                     
                                     
-                                    FirstItemToBuy(action: candyShopModel.goToMenu,
+                                    FirstItemToBuy(action: candyShopModel.goTo,
                                                    backItemImage: CandyImageName.candyParadise.rawValue,
                                                    nameOfItem: "CANDY PARADISE")
                                 }
                                 
                                 HStack {
-                                    SecondItemToBuy(action: candyShopModel.goToMenu,
+                                    SecondItemToBuy(action: candyShopModel.goTo,
                                                     imageToBuy: CandyImageName.boomBlast.rawValue,
                                                     nameOfItem: "BOOM BLUST")
                                     
-                                    SecondItemToBuy(action: candyShopModel.goToMenu,
+                                    SecondItemToBuy(action: candyShopModel.goTo,
                                                     backItemImage: CandyImageName.candyEscapes.rawValue,
                                                     nameOfItem: "CANDY HAVENS", offsetXText: 95)
                                 }
                                 
                                 HStack {
-                                    FirstItemToBuy(action: candyShopModel.goToMenu,
+                                    FirstItemToBuy(action: candyShopModel.goTo,
                                                    backItemImage: CandyImageName.sugarIsles.rawValue,
                                                    nameOfItem: "SUGAR ISLES")
                                     
                                     
-                                    SecondItemToBuy(action: candyShopModel.goToMenu,
+                                    SecondItemToBuy(action: candyShopModel.goTo,
                                                    backItemImage: CandyImageName.lillipopHavens.rawValue,
                                                    nameOfItem: "LOLLIPOP HAVENS", offsetXText: 95)
                                 }

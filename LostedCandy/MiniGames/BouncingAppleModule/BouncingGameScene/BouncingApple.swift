@@ -26,6 +26,15 @@ class BouncingApple: SKScene, SKPhysicsContactDelegate {
             let touchLocation = touch.location(in: self)
             if let tappedNode = self.atPoint(touchLocation) as? SKSpriteNode {
                 selectedSprite = tappedNode
+                let node = atPoint(touchLocation)
+                
+                if node.name == "menuBack" {
+                    game!.isMenu = true
+                }
+                
+                if node.name == "returnBack" {
+                    game!.isStage = true
+                }
             }
         }
     }
